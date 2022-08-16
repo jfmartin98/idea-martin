@@ -4,6 +4,13 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+#fondo{
+    background-color: #349595;
+    background-image: linear-gradient(0deg, #349595 0%, #ffffff 100%);
+    
+
+
+}
 .barranav{
     display: grid;
     grid-template-columns: repeat(8, 1fr);
@@ -25,6 +32,10 @@
 .menu li{
     list-style: none;
 
+}
+.menu li:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 10px 15px #e7e2e2cb;
 }
 .menu a{
     text-decoration: none;
@@ -67,7 +78,7 @@ h2{
     margin: 20px;
     text-align: center;
     transition: all 0,25s;
-
+    transform: scale(1.1);
 }
 .img:hover{
     transform: translateY(-15px);
@@ -132,6 +143,6 @@ a{
     text-decoration: underline;
 }
 footer{
-    background-color:rgb(245, 245, 245);
+    background-color:#349595;
     text-align: center;
 }
