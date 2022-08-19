@@ -146,3 +146,6 @@ footer{
     background-color:#349595;
     text-align: center;
 }
+.navbar {
+    border: 1px solid black;
+}
